@@ -29,3 +29,4 @@ warehouse = "COMPUTE_WH"
 database = "PETS"
 schema = "PUBLIC"
 ```
+Note: find `account` in User Profile > `Admin` > `Accounts` (organisational account, like "xxxxxx-xxxxxxx")
