@@ -30,3 +30,13 @@ database = "PETS"
 schema = "PUBLIC"
 ```
 Note: find `account` in User Profile > `Admin` > `Accounts` (organisational account, like "xxxxxx-xxxxxxx")
+
+## 3. Interact with Database
+Push commands like any normal SQL database:
+
+### 👀 Read
+`SELECT * from mytable;`
+### 📩 Insert
+`INSERT INTO MYTABLE VALUES ('{name}', '{animal}')`
+### ❌ Delete
+`DELETE FROM MYTABLE WHERE name = '{name}'`

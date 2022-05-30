@@ -22,6 +22,9 @@ rows = run_query("SELECT * from mytable;")
 for row in rows:
     st.write(f"{row[0]} has a :{row[1]}:")
 
+if st.button('Refresh'):
+    rows = run_query("SELECT * from mytable;")
+
 with st.form("inserter"):
     st.write("`INSERT INTO MYTABLE VALUES ('{name}', '{animal}')`")
     name = st.text_input('Name')
