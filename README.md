@@ -3,6 +3,8 @@
 
 ## 1. Snowflake Console
 `docs.streamlit.io` [Tutorial](https://docs.streamlit.io/knowledge-base/tutorials/databases/snowflake#create-a-snowflake-database)
+
+Run the following in the snowflake console.
 ```sql
 CREATE DATABASE PETS;
 
@@ -23,7 +25,7 @@ SELECT * FROM MYTABLE;
 user = "xxx"
 password = "xxx"
 account = "xxx"
-warehouse = "xxx"
-database = "xxx"
-schema = "xxx"
+warehouse = "COMPUTE_WH"
+database = "PETS"
+schema = "PUBLIC"
 ```
